@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Random Bookmark Opener",
+  "version": "1.1",
+  "description": "Opens a random bookmark via a popup button",
+  "permissions": [
+    "bookmarks",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Random Bookmark"
+  }
+}
